@@ -13,31 +13,16 @@ h1 {
     color: #204201;
 }
 
-.alert{
-    width: 30%;
-    margin: auto;
-}
-h2.alert{
+.alert-success, .alert-danger, .progress{
     width: 50%;
     margin: auto;
-}
-
-h4.alert{
-    width: 50%;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 10px;
 }
 
 progress{
     width: 50%;
     margin-top: 20px;
-    background: green;
+
 }
-progress[value]::-webkit-progress-bar {
-    background-color: #eee;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
-  }
 
 h4{
     margin: 25px 15px;

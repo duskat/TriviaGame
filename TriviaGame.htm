@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)file:///Users/Dzmitry/Desktop/bootcamp/github/TriviaGame/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TriviaGame</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="./TriviaGame_files/jquery.min.js"></script>
+    <link rel="stylesheet" href="./TriviaGame_files/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="./TriviaGame_files/style.css">
+    <script src="./TriviaGame_files/app.js"></script>    
+</head>
+<body>
+    <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">             
+                <h1>TriviaGame</h1>     
+            </div>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            
+        </div>
+    </div>
+    <div id="questions" style="visibility: visible;">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="alert alert-danger" role="alert">
+                    <h3>Time Remaining: <span id="timer">2</span> Second</h3>
+                </div>
+                <progress value="2" max="5"></progress>
+                <div class="row  capitals"><h4> What is the Capital of US?</h4><input type="radio" name="group-0" value="incorrect">Atlanta<input type="radio" name="group-0" value="incorrect">Charlotte<input type="radio" name="group-0" value="incorrect">New York<input type="radio" name="group-0" value="correct">Washington DC<h4> What is the Capital of Russia?</h4><input type="radio" name="group-1" value="incorrect">St.Petersburg<input type="radio" name="group-1" value="correct">Moscow<input type="radio" name="group-1" value="incorrect">Warsaw<input type="radio" name="group-1" value="incorrect">Minsk<h4> What is the Capital of China?</h4><input type="radio" name="group-2" value="incorrect">Beijing<input type="radio" name="group-2" value="correct">Shanghai<input type="radio" name="group-2" value="incorrect">Hong Kong<input type="radio" name="group-2" value="incorrect">Tianjin<h4> What is the Capital of Estonia?</h4><input type="radio" name="group-3" value="incorrect">Riga<input type="radio" name="group-3" value="incorrect">Helsinki<input type="radio" name="group-3" value="incorrect">Vilnius<input type="radio" name="group-3" value="correct">Tallinn<h4> What is the Capital of Canada?</h4><input type="radio" name="group-4" value="incorrect">Ontario<input type="radio" name="group-4" value="incorrect">Toronto<input type="radio" name="group-4" value="correct">Ottawa<input type="radio" name="group-4" value="incorrect">Vancouver<h4> What is the Capital of Tonga?</h4><input type="radio" name="group-5" value="incorrect">Tongatapu<input type="radio" name="group-5" value="correct">Nukuʻalofa<input type="radio" name="group-5" value="incorrect">Honiara<input type="radio" name="group-5" value="incorrect">Suva</div>          
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <button id="done" class="btn btn-success btn-lg">Done</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="alldone" class="container text-center">
+            <div class="alert alert-success" role="alert">
+                <h2>
+                All Done!
+                </h2>
+            </div>
+            <h3>Correct Answers: <span id="correct"></span></h3>
+            <h3>Incorrect Answers: <span id="incorrect"></span></h3>
+            <h3>Unanswered: <span id="unanswered">6</span></h3>
+        </div>
+    </div>
+
+</div></body></html>
